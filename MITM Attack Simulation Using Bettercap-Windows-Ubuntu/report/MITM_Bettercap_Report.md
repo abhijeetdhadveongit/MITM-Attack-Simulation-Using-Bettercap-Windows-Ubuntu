@@ -5,30 +5,48 @@ MITM Attack Simulation Using Bettercap
 ## About me 
 
 Author: Abhijeet Dhadve 
+
 Role: Ethical Hacker / Security Analyst
+
 Date: January 2026
+
 Tools: Kali Linux, Bettercap, Wireshark
 
 ---
 
 ## Table of Contents
 
-1.Executive Summary
-2.Objectives
-3.Scope & Ethical Considerations
-4.Lab Environment & Architecture
-5.Methodology
-6.Network Reconnaissance
-7.MITM Positioning (ARP Spoofing)
-8.Traffic Interception & Analysis
-9.Credential Exposure Analysis
-10.Browser & TLS Security Evaluation
-11.Detection & Defensive Analysis
-12.Mitigation & Validation
-13.Risk Assessment Summary
-14.Lessons Learned
-15.Conclusion
-16Appendix – Evidence
+1. Executive Summary
+
+2. Objectives
+
+3. Scope & Ethical Considerations
+
+4. Lab Environment & Architecture
+
+5. Methodology
+
+6. Network Reconnaissance
+
+7. MITM Positioning (ARP Spoofing)
+
+8. Traffic Interception & Analysis
+
+9. Credential Exposure Analysis
+
+10. Browser & TLS Security Evaluation
+
+11. Detection & Defensive Analysis
+
+12. Mitigation & Validation
+
+13. Risk Assessment Summary
+
+14. Lessons Learned
+
+15. Conclusion
+
+16. Appendix – Evidence
 
 ---
 
@@ -76,12 +94,15 @@ All testing was conducted on self-owned systems in a controlled lab environment 
 
 
 ## 4. Lab Environment & Architecture
-Virtual Machines
+Virtual Machines - 
 
 - Attacker - Kali Linux
--Victim 1 - Windows 10/11
--Victim 2 - Ubuntu
--Network - Internal / Host-only
+
+- Victim 1 - Windows 10/11
+
+- Victim 2 - Ubuntu
+
+- Network - Internal / Host-only
 
 A network diagram is provided in the diagrams folder.
 
