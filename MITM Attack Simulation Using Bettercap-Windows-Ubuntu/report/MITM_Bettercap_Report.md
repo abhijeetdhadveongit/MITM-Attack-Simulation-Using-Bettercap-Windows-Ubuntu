@@ -57,36 +57,36 @@ This project demonstrates a controlled Man-in-the-Middle (MITM) attack simulatio
 
 ## 2. Objectives
 
--Simulate MITM attacks using ARP spoofing
+- Simulate MITM attacks using ARP spoofing
 
--Intercept and analyze network traffic
+- Intercept and analyze network traffic
 
--Identify credential exposure risks
+- Identify credential exposure risks
 
--Evaluate browser and TLS protections
+- Evaluate browser and TLS protections
 
--Demonstrate detection and mitigation strategies
+- Demonstrate detection and mitigation strategies
 
 
 ## 3. Scope & Ethical Considerations
 
 ### In Scope
 
--Kali Linux attacker VM
+- Kali Linux attacker VM
 
--Windows 10/11 victim VM
+- Windows 10/11 victim VM
 
--Ubuntu victim VM
+- Ubuntu victim VM
 
--Internal virtual network
+- Internal virtual network
 
 ### Out of Scope
 
--Public or corporate networks
+- Public or corporate networks
 
--Real user credentials
+- Real user credentials
 
--Malware or destructive payloads
+- Malware or destructive payloads
 
 ### Ethical Statement
 
@@ -111,15 +111,15 @@ A network diagram is provided in the diagrams folder.
 
 The assessment followed a penetration testing lifecycle:
 
-1.Reconnaissance
+1. Reconnaissance
 
-2.MITM positioning
+2. MITM positioning
 
-3.Traffic interception
+3. Traffic interception
 
-4.Credential exposure analysis
+4. Credential exposure analysis
 
-5.Detection and mitigation
+5. Detection and mitigation
 
 ## 6. Network Reconnaissance
 
@@ -163,41 +163,41 @@ Indicators of compromise included ARP anomalies, duplicate MAC mappings, and abn
 
 ### Recommended mitigations included:
 
--HTTPS + HSTS enforcement
+- HTTPS + HSTS enforcement
 
--Network segmentation
+- Network segmentation
 
--Dynamic ARP Inspection
+- Dynamic ARP Inspection
 
--IDS/IPS deployment
+- IDS/IPS deployment
 
--Deploy static ARP rule 
+- Deploy static ARP rule 
 
 
 ## 13. Risk Assessment Summary
 
 ### Vulnerability and its Severity
 
-1.ARP Spoofing - High
+1. ARP Spoofing - High
 
-2.Cleartext Credentials - High
+2. Cleartext Credentials - High
+ 
+3. Metadata Leakage - Medium
 
-3.Metadata Leakage - Medium
-
-4.Lack of Monitoring - Medium
+4. Lack of Monitoring - Medium
 
 
 ## 14. Lessons Learned
 
--OS choice does not mitigate Layer-2 attacks
+- OS choice does not mitigate Layer-2 attacks
 
--Encryption is essential but not sufficient
+- Encryption is essential but not sufficient
 
--Detection is critical for early response
+- Detection is critical for early response
 
--Defense-in-depth is required
+- Defense-in-depth is required
 
--Static ARP hardening prevented ARP-based traffic redirection; however, passive traffic observation remained possible due to shared Layer-2 virtualization, highlighting the distinction between MITM prevention and network visibility.
+- Static ARP hardening prevented ARP-based traffic redirection; however, passive traffic observation remained possible due to shared Layer-2 virtualization, highlighting the distinction between MITM prevention and network visibility.
 
 
 ## 15. Conclusion
